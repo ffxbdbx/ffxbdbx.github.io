@@ -160,7 +160,11 @@ html {
    =================================== */
 .hero-section {
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-dark-alt) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--bg-dark) 0%,
+    var(--bg-dark-alt) 100%
+  );
   position: relative;
   overflow: hidden;
   padding-top: 100px;
@@ -242,7 +246,11 @@ html {
 
 /* Buttons */
 .btn-primary {
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--accent-color)
+  );
   border: none;
   padding: 12px 30px;
   font-weight: 600;
@@ -324,9 +332,11 @@ html {
   border-radius: 10px;
   overflow: hidden;
 }
-
 .progress-bar {
-  transition: width 1.5s ease;
+  width: 0%;
+}
+.progress-bar {
+  transition: width 1.5s ease-in-out;
 }
 
 /* Tech Badges */
@@ -402,7 +412,11 @@ html {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: linear-gradient(180deg, var(--primary-color), var(--accent-color));
+  background: linear-gradient(
+    180deg,
+    var(--primary-color),
+    var(--accent-color)
+  );
 }
 
 .timeline-item {
@@ -416,7 +430,11 @@ html {
   left: 0;
   width: 60px;
   height: 60px;
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--accent-color)
+  );
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -525,7 +543,11 @@ html {
 .contact-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--accent-color)
+  );
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -589,7 +611,11 @@ html {
 }
 
 .social-link:hover {
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--accent-color)
+  );
   border-color: var(--primary-color);
   color: white;
   transform: translateY(-5px) rotate(360deg);
@@ -625,7 +651,11 @@ html {
   right: 30px;
   width: 50px;
   height: 50px;
-  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+  background: linear-gradient(
+    135deg,
+    var(--primary-color),
+    var(--accent-color)
+  );
   color: white;
   border: none;
   border-radius: 50%;
